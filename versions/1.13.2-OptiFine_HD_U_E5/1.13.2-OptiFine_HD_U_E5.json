@@ -1,0 +1,23 @@
+{
+  "id": "1.13.2-OptiFine_HD_U_E5",
+  "inheritsFrom": "1.13.2",
+  "time": "2019-02-06T15:42:28-05:00",
+  "releaseTime": "2019-02-06T15:42:28-05:00",
+  "type": "release",
+  "libraries": [
+    {
+      "name": "optifine:OptiFine:1.13.2_HD_U_E5"
+    },
+    {
+      "name": "net.minecraft:launchwrapper:1.12"
+    }
+  ],
+  "mainClass": "net.minecraft.launchwrapper.Launch",
+  "minimumLauncherVersion": "21",
+  "arguments": {
+    "game": [
+      "--tweakClass",
+      "optifine.OptiFineTweaker"
+    ]
+  }
+}
